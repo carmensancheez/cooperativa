@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./images/logoCooperativa.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>COOPEMPROITLA - Detalle de Prestamos </title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <ul class="navigation">
+
+    <a href="./index.html"><li>Inicio</li></a>
+    <a href=""><li>Sobre Nosotros</li></a>
+    <a href=""><li>Servicios</li></a>
+    <a href=""><li>Transparencia</li></a>
+    <a href=""><li>Noticias</li></a>
+    
+
+  </ul>
+
+
+  <table>
+    <tr class="table">
+      <td><a href="estadoCuentaDetallado.html" class="link"><strong>Estado de Cuenta General</strong></a>
+      <td><a href="estadoAhorroDetallado.html" class="link"><strong>Estado de Ahorro General</strong></a>
+      <td><a href="index2.html" class="link"><strong>Detalles de Descuento</strong></a>
+    </tr>
+  </table>
+  
+  <table>
+    <tr class="table">
+      <td><a href="detallesPrestamos.html" class="link"><strong>Detalles de Prestamos</strong></a>
+      <td><a href="./parte1/index.html" class="link"><strong>Calculadora Prestamos</strong></a>
+     <td><a href="modificacionesAhorro.html" class="link"><strong>Modificaciones de Ahorros</strong></a>
+    </tr>
+  </table>
+
+    <table>
+      <thead>
+        <tr>
+          <h2 style="color:#F8F8FF; background-color:#008000">Estado de Cuenta Detallado</h2>
+        </tr>
+      </thead>
+    </table>
+
+    <table id="myDataTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Cuota</th>
+                <th>Pago</th>
+                <th>Interés</th>
+                <th>Capital</th>
+                <th>Saldo</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+                <td>0</td>
+                <td>1000</td>
+                <td>100</td>
+                <td>0</td>
+                <td>45598</td>
+                </tr>
+                <tr>
+                <td>1</td>
+                <td>2200</td>
+                <td>220</td>
+                <td>250</td>
+                <td>40717</td>
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>3000</td>
+                <td>300</td>
+                <td>300</td>
+                <td>43339</td>
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>3500</td>
+                <td>350</td>
+                <td>500</td>
+                <td>42719</td>
+                </tr>
+                <tr>
+                <td>4</td>
+                <td>500</td>
+                <td>50</td>
+                <td>900</td>
+                <td>46042</td>
+                </tr>
+                <tr>
+                <td>5</td>
+                <td>2000</td>
+                <td>200</td>
+                <td>1000</td>
+                <td>49421</td>
+                </tr>
+                <tr>
+                <td>6</td>
+                <td>1000</td>
+                <td>100</td>
+                <td>1220</td>
+                <td>53588</td>
+                </tr>
+        </tbody>
+    </table>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">$(document).ready(function() {
+    $('#myDataTable').DataTable();
+} );</script>
+
+  <table>
+      <thead>
+        <tr>
+          <h1 style="color:#F8F8FF; background-color:#008000"> </h1>
+        </tr>
+      </thead>
+    </table>
+
+  </body>
+</html>
